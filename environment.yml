@@ -1,0 +1,9 @@
+name: linkedin_scrapper
+channels:
+  - defaults
+dependencies:
+  - python=3.9  # ou a versão que preferir
+  - selenium
+  - pip
+  - pip:
+      - webdriver-manager # Utilitário para gerenciar os drivers automaticamente
